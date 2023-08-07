@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -22,13 +23,13 @@ public class LoginController {
     private void onLoginButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(LoginController.class.getResource("login-view.fxml"));
         try {
-            // Retrieve user input from the registration form (username, password, email, etc.).
-            // You can access the input fields from the form using appropriate JavaFX controls.
+            // Retrieve user input from the registration form (username, password)
+            // access the input fields from the form using appropriate JavaFX controls.
 
             // For simplicity, let's assume the registration is successful if the required fields are not empty.
-            // You may want to perform additional validations and interact with a database or storage to complete a real registration process.
+            //  to perform additional validations and interact with a database or storage to complete a real registration process.
 
-            // Example: Assuming you have TextField objects named "usernameField", "passwordField", and "emailField":
+            // Example: Assuming  TextField objects named "usernameField", "passwordField", and "emailField":
 
 
             String username = Username.getText();
@@ -46,7 +47,7 @@ public class LoginController {
 
             } else {
                 // Some fields are empty, so the registration is not successful.
-                // You might want to display an error message or perform additional validations here.
+                 //  display an error message or perform additional validations here.
 
                 // Display an error message to the user.
                 Alert errorAlert = new Alert(Alert.AlertType.ERROR);
@@ -70,7 +71,9 @@ public class LoginController {
             Stage registerStage = new Stage();
 
             registerStage.setScene(registerscene);
+            registerStage.initModality(Modality.APPLICATION_MODAL);
             registerStage.setTitle("User Registration");
+
 
             registerStage.show();
         }
