@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.StrukController">
+   <children>
+      <Label fx:id="label2" alignment="CENTER" layoutX="579.0" layoutY="63.0" prefHeight="18.0" prefWidth="81.0" text="Label" />
+      <Label fx:id="label1" alignment="CENTER" layoutX="137.0" layoutY="73.0" prefHeight="18.0" prefWidth="246.0" text="Nama Pelanggan " />
+      <Pane prefHeight="54.0" prefWidth="713.0" style="-fx-background-color: grey;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" text="Struk Order" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label layoutX="15.0" layoutY="72.0" text="Nama Pelanggan " />
+      <Label fx:id="label3" alignment="CENTER" layoutX="130.0" layoutY="107.0" prefHeight="18.0" prefWidth="246.0" text="Nama Property" />
+      <Label fx:id="label5" alignment="CENTER" layoutX="107.0" layoutY="223.0" prefHeight="18.0" prefWidth="246.0" text="Lokasi" />
+      <Label fx:id="label4" alignment="CENTER" layoutX="127.0" layoutY="144.0" prefHeight="18.0" prefWidth="246.0" text="Type Property" />
+      <Label fx:id="label6" alignment="CENTER" layoutX="131.0" layoutY="182.0" prefHeight="18.0" prefWidth="246.0" text="Harga Property" />
+      <Label alignment="CENTER" layoutX="209.0" layoutY="261.0" prefHeight="18.0" prefWidth="326.0" text="Rumah &amp; Apartemen sudah termasuk dengan air dan listrik" />
+      <Label layoutX="487.0" layoutY="63.0" text="No Pelanggan : " />
+      <Label alignment="CENTER" layoutX="177.0" layoutY="291.0" prefHeight="19.0" prefWidth="302.0" text="-TerimaKasih Telah Melakukan Pemesanan-">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="108.0" text="Nama Property" />
+      <Label layoutX="15.0" layoutY="147.0" text="Type Property" />
+      <Label layoutX="14.0" layoutY="182.0" text="Harga Property" />
+      <Label layoutX="17.0" layoutY="221.0" text="Lokasi" />
+      <Label layoutX="17.0" layoutY="258.0" text="Detail" />
+      <Label alignment="CENTER" layoutX="-15.0" layoutY="351.0" prefHeight="19.0" prefWidth="302.0" text="Agen Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="393.0" layoutY="341.0" prefHeight="19.0" prefWidth="302.0" text="Customer Name">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label7" alignment="CENTER" layoutX="167.0" layoutY="315.0" prefHeight="18.0" prefWidth="395.0" text="Label">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="label71" alignment="CENTER" layoutX="255.0" layoutY="315.0" prefHeight="18.0" prefWidth="68.0" text="Bandung,">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
